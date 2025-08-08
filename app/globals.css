@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FAF9F6;
+  --ink: #111111;
+  --muted: #6B655E;
+  --gold: #D4AF37;
+  --line: #E8E5DF;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+}
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
